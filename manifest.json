@@ -1,0 +1,33 @@
+{
+    "name": "Info Chrome Extension",
+    "version": "0.0.0.1",
+    "author": "Bruno Quindeler",
+    "manifest_version": 3,
+    "description": "Show me the infos.",
+    "icons": {
+        "16": "icons/info16.png",
+        "24": "icons/info24.png",
+        "32": "icons/info32.png",
+        "64": "icons/info64.png",
+        "128": "icons/info128.png"
+    },
+    "action": {
+            "default_popup": "./popup/popup.html"
+        },
+    "content_scripts": [
+        {
+            "matches": ["*://*/"],
+            "js": [
+                "./popup/js/cpu.js",
+                "./popup/js/memory.js",
+                "./popup/js/storage.js",
+                "./popup/js/utils.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "system.cpu",
+        "system.memory",
+        "system.storage"
+    ]
+}

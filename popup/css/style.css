@@ -1,0 +1,33 @@
+body {
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    background-color: #191C21;
+    color: #D1A233;
+    font-weight: bold;
+    width: 30rem;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+button {
+    align-items: center;
+    background-color: #D1A233;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+table {
+    width: 50% !important;
+    margin: auto;
+}
+
+tr {
+    white-space: nowrap;
+}
