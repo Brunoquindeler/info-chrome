@@ -11,20 +11,39 @@
     <h1>Informações</h1>
 
     <!-- CPU Info -->
-    <button type="submit" id="btn_cpu_info">Mostrar informações de CPU</button>
+    <button type="submit" class="btn" id="btn_cpu_info">Mostrar informações de CPU</button>
     <div id="table_cpu_info" style="display:none"></div>
 
     <!-- Memory Info -->
-    <button type="submit" id="btn_memory_info">Mostrar informações de memória</button>
+    <button type="submit" class="btn" id="btn_memory_info">Mostrar informações de memória</button>
     <div id="table_memory_info" style="display:none"></div>
 
     <!-- Storage Info -->
-    <button type="submit" id="btn_storage_info">Mostrar informações de armazenamento</button>
+    <button type="submit" class="btn" id="btn_storage_info">Mostrar informações de armazenamento</button>
     <div id="table_storage_info" style="display:none"></div>
+
+    <hr>
+
+    <!-- Choose The App Colors-->
+    <div>
+        <label>Mudar Cores: &nbsp;</label>
+        <input type="color" id="backgroundColorPicker" value="#191C21">
+        <input type="color" id="textColorPicker" value="#1273E2">
+        <input type="color" id="backgroundButtonColorPicker" value="#9BC9FF">
+        <input type="color" id="textButtonColorPicker" value="#191C21">
+    </div>
+
+    <hr>
+
+    <div>
+        <button id="resetColors" class="btn">Resetar Cores</button>
+        <button id="clearCache" class="btn">Limpar Cache</button>
+    </div>
 
     <script src="./js/cpu.js"></script>
     <script src="./js/memory.js"></script>
     <script src="./js/storage.js"></script>
     <script src="./js/utils.js"></script>
+    <script src="./js/colors.js"></script>
 </body>
 </html>
