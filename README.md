@@ -7,13 +7,12 @@ Esta extensão foi criada para fins de estudo.
 | CPU           | ✅     |
 | Memória       | ✅     |
 | Armazenamento | ✅     |
-| Rede          | ❌     |
 
 ---
- 
+
 ## Exemplo de uso
 
-![Exemplo de uso](./docs/ex.gif)
+![Exemplo de uso](./docs/ex-major-version.gif)
 
 ## Links úteis
 [API do Chrome](https://developer.chrome.com/docs/extensions/reference/)
