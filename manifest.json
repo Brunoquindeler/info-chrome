@@ -1,6 +1,6 @@
 {
     "name": "Info PC",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "author": "Bruno Quindeler",
     "manifest_version": 3,
     "description": "Veja informações de CPU, Memória e Armazenamento do seu computador.",
