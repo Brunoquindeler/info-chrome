@@ -11,24 +11,23 @@ function formatBytes(bytes, decimals = 2) {
 function translateStorageUnitType(type) {
     switch (type) {
         case "fixed":
-            return "Fixo"
+            return "Fixo";
         case "removable":
-            return "Removível"
+            return "Removível";
         default:
-            return "Desconhecido"
-    }
-}
+            return "Desconhecido";
+    };
+};
 
-// TODO: mudar todos os contextos parautilizar essa função
 function createTable(context) {
-    let general_info = document.querySelector('#general_'+context+'_info')
-    let table_info = document.querySelector('#table_'+context+'_info');
+    let general_info = document.querySelector('#general_' + context + '_info');
+    let table_info = document.querySelector('#table_' + context + '_info');
     if (!general_info) {
         table_info.innerHTML = [
-            '<table border="1" id="general_'+context+'_info">',
-            '<tbody id="general_'+context+'_info_body">',
+            '<table border="1" id="general_' + context + '_info">',
+            '<tbody id="general_' + context + '_info_body">',
             '</tbody>',
-            '</table>',        
+            '</table>',
         ].join("\n");
-    }
-}
+    };
+};
