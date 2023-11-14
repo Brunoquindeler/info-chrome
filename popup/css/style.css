@@ -1,33 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     place-content: center;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: grid;
-    background-color: #191C21;
-    color: #9BC9FF; 
     font-weight: bold;
-    width: 30rem;
+    width: 40rem;
     margin: auto;
     padding-bottom: 1rem;
+    font-size: 1rem;
 }
 
 button {
     align-items: center;
-    background-color: #9BC9FF;
     font-size: 1rem;
     font-weight: bold;
     border: none;
     border-radius: 5%;
     cursor: pointer;
-    margin: 1rem;
+    margin: 0.3rem;
+    padding: 0.3rem;
 }
 
 table {
     width: 50% !important;
     margin: auto;
+    white-space: nowrap;
+    border-collapse: collapse;
 }
 
-tr {
-    white-space: nowrap;
+td {
+    padding: 0.5rem;
 }
+
+hr {
+    margin: 1.5rem;
+} 
