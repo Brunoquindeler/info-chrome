@@ -15,4 +15,5 @@ Esta extensão foi criada para fins de estudo.
 ![Exemplo de uso](./docs/ex-major-version.gif)
 
 ## Links úteis
-[API do Chrome](https://developer.chrome.com/docs/extensions/reference/)
+- [**Download - Edge Store**](https://microsoftedge.microsoft.com/addons/detail/info-pc/nnbhlknkmecgeefbcifgnimlkmmfehbp)
+- [**API do Chrome**](https://developer.chrome.com/docs/extensions/reference/)
